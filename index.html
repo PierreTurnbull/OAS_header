@@ -9,41 +9,35 @@
 </head>
 <body>
     <!-- <div class="wrapper"> -->
-        <!-- header will be placed at the top of div.wrapper -->
+        <!-- le header sera placé dans div.wrapper, en premier -->
         <header class="headroom headroom--pinned" role="banner">
             <div class="header">
-                <!-- external part of the header -->
-                <div class="header-wrapper">
-                    <div class="mobile-nav-wrapper">
-                        <img src="img/mobile-nav.png" class="mobile-nav" alt="Open menu">
+                <!-- partie extérieure du header mobile -->
+                <div class="mobile-menu">
+                    <div class="open-nav">
+                        <img src="img/open-nav.png" class="open-nav-img" alt="Open menu">
                     </div>
                     <a href="https://www.offresasaisir.fr/" class="logo">
                         <img src="img/logo.png" alt="offresasaisir.fr" class="logo-img">
                     </a>
                 </div>
-                <!-- menu -->
-                <div>
-                    <span></span>
-                    <a href="">
-                        <img src="" alt="">
-                    </a>
-                    <div>
-                        <p></p>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
+                <!-- partie intérieure du header mobile / header desktop -->
+                <div class="desktop-menu">
                     <a href=""></a>
-                    <form action="">
-                        <input type="text">
-                        <button type="submit"></button>
-                    </form>
-                    <div></div>
+                    <div class="mobile-menu-top">
+                        <div class="close-nav">
+                            <img src="img/close-nav.png" class="close-nav-img" alt="Close menu">
+                        </div>
+                        <form method="GET" action="https://www.offresasaisir.fr/recherche" role="search" class="search-form">
+                            <input type="text" name="q" placeholder="Rechercher un bon plan..." class="search-form-text">
+                            <button type="submit" class="search-form-submit"></button>
+                        </form>
+                    </div>
+                    <div class="user-header">
+                        <a href="https://www.offresasaisir.fr/inscription" id="register" data-middleware="aHR0cHM6Ly93d3cub2ZmcmVzYXNhaXNpci5mci9uZWVkX3JlZ2lzdGVy" class="register-btn">Inscription</a>
+                        <a href="" id="connexion" class="connexion-btn">Connexion</a>
+                    </div>
+                    <a href="https://www.offresasaisir.fr/partage" class="share-btn" />
                 </div>
             </div>
         </header>
@@ -52,5 +46,6 @@
         <br><br><br><br><br><br><br><br><br><br><br>
         This is a test div
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
