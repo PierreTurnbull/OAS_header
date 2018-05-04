@@ -171,8 +171,8 @@ a {
           color: black; }
       .headroom .header .desktop-menu .nav-list-menu .nav-list {
         display: grid;
-        grid-template-rows: repeat(9, 60px);
-        margin-bottom: 110px;
+        grid-auto-flow: row;
+        grid-auto-rows: 60px;
         padding-top: 17px; }
         .headroom .header .desktop-menu .nav-list-menu .nav-list-btn {
           display: none; }
@@ -184,7 +184,8 @@ a {
           width: 100%;
           height: 100%; }
           .headroom .header .desktop-menu .nav-list-menu .nav-list .nav-list-item:last-child {
-            border-bottom: 1px solid #EAEAEA; }
+            border-bottom: 1px solid #EAEAEA;
+            margin-bottom: 189px; }
           .headroom .header .desktop-menu .nav-list-menu .nav-list .nav-list-item-link {
             font-size: 21px;
             width: 100%;
@@ -203,7 +204,7 @@ a {
         margin: auto;
         left: -200vw;
         transition: 0.3s ease-out;
-        width: 300px;
+        width: 260px;
         height: 35px;
         background-color: #DA0751;
         background-image: url("img/share.png");
