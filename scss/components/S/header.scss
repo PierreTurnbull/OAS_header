@@ -45,7 +45,7 @@
         .desktop-menu {
             overflow-y: auto;
             background-color: white;
-            transition: 0.3s ease-out;
+            transition: 0.2s ease-out;
             width: 100vw;
             height: 100vh;
             position: fixed;
@@ -178,7 +178,7 @@
                 right: 0;
                 margin: auto;
                 left: -200vw;
-                transition: 0.3s ease-out;
+                transition: 0.2s ease-out;
                 width: 260px;
                 height: 35px;
                 background-color: $main-color;
@@ -193,7 +193,7 @@
                 width: 100%;
                 height: 156px;
                 background: white;
-                transition: 0.3s ease-out;
+                transition: 0.2s ease-out;
                 display: flex;
                 justify-content: space-around;
                 z-index: 100;
