@@ -85,10 +85,11 @@ a {
       .headroom .header .mobile-menu .logo {
         height: 56px; }
     .headroom .header .desktop-menu {
+      overflow-y: auto;
       background-color: white;
       transition: 0.3s ease-out;
       width: 100vw;
-      min-height: 100vh;
+      height: 100vh;
       position: fixed;
       top: 0;
       left: -100vw;
@@ -144,16 +145,91 @@ a {
             background-repeat: no-repeat;
             background-position: center; }
       .headroom .header .desktop-menu .user-header {
-        width: 1000px;
-        height: 40px;
-        background: #EEE;
-        order: 3; }
+        height: 46px;
+        order: 3;
+        display: flex;
+        justify-content: space-around; }
+        .headroom .header .desktop-menu .user-header .user-header-btn {
+          color: white;
+          font-size: 16px;
+          display: block;
+          width: 34.4%;
+          min-width: 140px;
+          height: 100%;
+          text-align: center;
+          padding-top: 16px;
+          box-sizing: border-box;
+          border-radius: 3px; }
+        .headroom .header .desktop-menu .user-header .register-btn {
+          background-color: #DA0751; }
+        .headroom .header .desktop-menu .user-header .connexion-btn {
+          background-color: #F2F2F2;
+          color: black; }
+      .headroom .header .desktop-menu .nav-list-menu .nav-list {
+        display: grid;
+        grid-template-rows: repeat(9, 60px);
+        margin-bottom: 110px;
+        padding-top: 17px; }
+        .headroom .header .desktop-menu .nav-list-menu .nav-list-btn {
+          display: none; }
+        .headroom .header .desktop-menu .nav-list-menu .nav-list .nav-list-item {
+          padding: 20px 0 20px 17px;
+          box-sizing: border-box;
+          border-top: 1px solid #EAEAEA;
+          background-color: white;
+          width: 100%;
+          height: 100%; }
+          .headroom .header .desktop-menu .nav-list-menu .nav-list .nav-list-item:last-child {
+            border-bottom: 1px solid #EAEAEA; }
+          .headroom .header .desktop-menu .nav-list-menu .nav-list .nav-list-item-link {
+            font-size: 21px;
+            width: 100%;
+            height: 100%; }
+          .headroom .header .desktop-menu .nav-list-menu .nav-list .nav-list-item .on {
+            color: #DA0751; }
+          .headroom .header .desktop-menu .nav-list-menu .nav-list .nav-list-item .off {
+            color: #5F5F5F; }
+          .headroom .header .desktop-menu .nav-list-menu .nav-list .nav-list-item .special {
+            color: #00A1C5; }
       .headroom .header .desktop-menu .share-btn {
-        order: 5;
+        position: fixed;
+        bottom: 100px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        left: -200vw;
+        transition: 0.3s ease-out;
         width: 300px;
         height: 35px;
-        background-color: #0BA7C8;
+        background-color: #DA0751;
         background-image: url("img/share.png");
-        background-size: 100% 100%; }
+        background-size: 100% 100%;
+        z-index: 150; }
+      .headroom .header .desktop-menu .share-list {
+        border-top: 1px solid #EAEAEA;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 156px;
+        background: white;
+        transition: 0.3s ease-out;
+        display: flex;
+        justify-content: space-around;
+        z-index: 100;
+        padding: 80px 50px 0 50px;
+        box-sizing: border-box; }
+        .headroom .header .desktop-menu .share-list .share-item {
+          width: 46px;
+          height: 46px; }
+          .headroom .header .desktop-menu .share-list .share-item .share-link {
+            display: block;
+            width: 100%;
+            height: 100%; }
+            .headroom .header .desktop-menu .share-list .share-item .share-link-facebook {
+              background-image: url("img/share-facebook.png"); }
+            .headroom .header .desktop-menu .share-list .share-item .share-link-tweeter {
+              background-image: url("img/share-tweeter.png"); }
+            .headroom .header .desktop-menu .share-list .share-item .share-link-rss {
+              background-image: url("img/share-rss.png"); }
 
 /*# sourceMappingURL=style.css.map */
