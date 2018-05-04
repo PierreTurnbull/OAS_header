@@ -103,6 +103,7 @@ a {
         grid-template-columns: 1fr 61px;
         margin-left: 17px; }
         .headroom .header .desktop-menu .mobile-menu-top .close-nav {
+          transition: 0.3s ease-out;
           order: 1;
           position: relative;
           width: 61px;
@@ -262,6 +263,15 @@ a {
       right: 0;
       background: none;
       position: relative; }
+      .headroom .header .desktop-menu .mobile-menu-top .close-nav {
+        position: fixed;
+        top: 0;
+        left: -438px;
+        width: 438px;
+        background-color: white;
+        height: 75px;
+        margin-top: 0;
+        padding-left: 397px; }
       .headroom .header .desktop-menu .mobile-menu-top .search-form {
         margin-left: 3px;
         width: 252px; }
@@ -277,14 +287,14 @@ a {
           width: 109px;
           padding: 12px 0 0 0; }
       .headroom .header .desktop-menu .nav-list-menu {
+        position: fixed;
+        left: -438px;
+        top: 75px;
         transition: 0.3s ease-out;
-        display: none;
         overflow: hidden;
-        height: 0;
-        margin-left: -275px;
         width: 438px; }
         .headroom .header .desktop-menu .nav-list-menu .nav-list {
-          padding-top: 7px; }
+          padding-top: 0; }
       .headroom .header .desktop-menu .share-btn {
         position: absolute;
         top: 103px;

@@ -57,6 +57,7 @@
                 grid-template-columns: 1fr 61px;
                 margin-left: 17px;
                 .close-nav {
+                    transition: 0.3s ease-out;
                     order: 1;
                     position: relative;
                     width: 61px;

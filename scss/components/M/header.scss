@@ -34,6 +34,14 @@
                 position: relative;
                 .mobile-menu-top {
                     .close-nav {
+                        position: fixed;
+                        top: 0;
+                        left: -438px;
+                        width: 438px;
+                        background-color: white;
+                        height: 75px;
+                        margin-top: 0;
+                        padding-left: 397px;;
                         &-img {
                         }
                     }
@@ -66,14 +74,14 @@
                     }
                 }
                 .nav-list-menu {
+                    position: fixed;
+                    left: -438px;
+                    top: 75px;
                     transition: 0.3s ease-out;
-                    display: none;
                     overflow: hidden;
-                    height: 0;
-                    margin-left: -275px;
                     width: 438px;
                     .nav-list {
-                        padding-top: 7px;
+                        padding-top: 0;
                         &-btn {
                         }
                         .nav-list-item {
