@@ -1,10 +1,12 @@
-@media (min-width: 1251) {
+@media (min-width: 1251px) {
     .headroom {
         &--pinned {
         }
         .header {
+            width: 1251px;
             .mobile-menu {
                 .open-nav {
+                    display: none;
                     &-img {
                     }
                 }
@@ -13,12 +15,14 @@
                 }
             }
             .desktop-menu {
+                width: 1251px;
                 .mobile-menu-top {
                     .close-nav {
                         &-img {
                         }
                     }
                     .search-form {
+                        width: 502px;
                         &-text {
                             &:focus {
                             }
@@ -28,6 +32,7 @@
                     }
                 }
                 .user-header {
+                    margin-left: 980px;
                     .user-header-btn {
                     }
                     .register-btn {
@@ -54,8 +59,10 @@
                     }
                 }
                 .share-btn {
+                    left: 1175px;
                 }
                 .share-list {
+                    margin-left: 800px;
                     .share-item {
                         .share-link {
                             &-facebook {
