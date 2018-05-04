@@ -164,12 +164,17 @@ a {
           text-align: center;
           padding-top: 16px;
           box-sizing: border-box;
-          border-radius: 3px; }
+          border-radius: 3px;
+          transition: 0.1s; }
         .headroom .header .desktop-menu .user-header .register-btn {
           background-color: #DA0751; }
+          .headroom .header .desktop-menu .user-header .register-btn:hover {
+            background-color: #A90641; }
         .headroom .header .desktop-menu .user-header .connexion-btn {
           background-color: #F2F2F2;
           color: black; }
+          .headroom .header .desktop-menu .user-header .connexion-btn:hover {
+            color: #DA0751; }
       .headroom .header .desktop-menu .nav-list-menu .nav-list {
         display: grid;
         grid-auto-flow: row;
@@ -275,6 +280,10 @@ a {
       .headroom .header .desktop-menu .mobile-menu-top .search-form {
         margin-left: 3px;
         width: 252px; }
+        .headroom .header .desktop-menu .mobile-menu-top .search-form-submit {
+          cursor: pointer; }
+          .headroom .header .desktop-menu .mobile-menu-top .search-form-submit:hover {
+            background-image: url("img/search_hover.png"); }
       .headroom .header .desktop-menu .user-header {
         margin-top: -45px;
         margin-left: 454px;
@@ -304,6 +313,8 @@ a {
         background: blue;
         border-radius: 2px;
         background-image: url("img/share_reduced.png"); }
+        .headroom .header .desktop-menu .share-btn:hover {
+          background-image: url("img/share_reduced_hover.png"); }
       .headroom .header .desktop-menu .share-list {
         justify-content: space-between;
         position: fixed;
@@ -322,15 +333,20 @@ a {
     width: 1251px; }
     .headroom .header .mobile-menu .open-nav {
       display: none; }
+    .headroom .header .mobile-menu .logo {
+      margin-left: 0; }
     .headroom .header .desktop-menu {
       width: 1251px; }
       .headroom .header .desktop-menu .mobile-menu-top .search-form {
-        width: 502px; }
+        width: 452px; }
       .headroom .header .desktop-menu .user-header {
-        margin-left: 980px; }
+        margin-top: -36px;
+        margin-left: 683px; }
       .headroom .header .desktop-menu .share-btn {
-        left: 1175px; }
+        top: 15px;
+        left: 925px;
+        margin: 0; }
       .headroom .header .desktop-menu .share-list {
-        margin-left: 800px; } }
+        margin-left: 532px; } }
 
 /*# sourceMappingURL=style.css.map */

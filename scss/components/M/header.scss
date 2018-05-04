@@ -53,6 +53,10 @@
                             }
                         }
                         &-submit {
+                            cursor: pointer;
+                            &:hover {
+                                background-image: url("img/search_hover.png");
+                            }
                         }
                     }
                 }
@@ -107,6 +111,9 @@
                     background: blue;
                     border-radius: 2px;
                     background-image: url("img/share_reduced.png");
+                    &:hover {
+                        background-image: url("img/share_reduced_hover.png");
+                    }
                 }
                 .share-list {
                     justify-content: space-between;

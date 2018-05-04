@@ -126,13 +126,20 @@
                     padding-top: 16px;
                     box-sizing: border-box;
                     border-radius: 3px;
+                    transition: 0.1s;
                 }
                 .register-btn {
                     background-color: #DA0751;
+                    &:hover {
+                        background-color: #A90641;
+                    }
                 }
                 .connexion-btn {
                     background-color: #F2F2F2;
                     color: black;
+                    &:hover {
+                        color: $main-color;
+                    }
                 }
             }
             .nav-list-menu {

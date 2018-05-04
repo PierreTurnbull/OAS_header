@@ -11,6 +11,7 @@
                     }
                 }
                 .logo {
+                    margin-left: 0;
                     &-img {}
                 }
             }
@@ -22,7 +23,7 @@
                         }
                     }
                     .search-form {
-                        width: 502px;
+                        width: 452px;
                         &-text {
                             &:focus {
                             }
@@ -32,7 +33,8 @@
                     }
                 }
                 .user-header {
-                    margin-left: 980px;
+                    margin-top: -36px;
+                    margin-left: 683px;
                     .user-header-btn {
                     }
                     .register-btn {
@@ -59,10 +61,12 @@
                     }
                 }
                 .share-btn {
-                    left: 1175px;
+                    top: 15px;
+                    left: 925px;
+                    margin: 0;
                 }
                 .share-list {
-                    margin-left: 800px;
+                    margin-left: 532px;
                     .share-item {
                         .share-link {
                             &-facebook {
